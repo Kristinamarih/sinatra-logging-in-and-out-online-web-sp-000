@@ -7,7 +7,8 @@
   </head>
   <body id="page-top">
     <% if is_logged_in?(session) == "true" %>
-    <%= 
+    <%= "#{username}" %>
+    <%= "#{balance}" %>
     <a href="/logout">Log Out</a>
   </body>
 </html>
